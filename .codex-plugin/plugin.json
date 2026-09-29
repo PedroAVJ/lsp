@@ -1,0 +1,40 @@
+{
+  "name": "lsp",
+  "version": "0.1.0",
+  "description": "Batch TypeScript, JavaScript, Python, Bash and C# navigation through pinned language servers.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/lsp#readme",
+  "repository": "https://github.com/PedroAVJ/lsp",
+  "license": "MIT",
+  "keywords": [
+    "lsp",
+    "language-server",
+    "code-navigation",
+    "typescript",
+    "javascript",
+    "python",
+    "bash",
+    "csharp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "LSP",
+    "shortDescription": "Batch code navigation through language servers.",
+    "longDescription": "Resolve definitions, references, hover types, outlines and diagnostics for TypeScript/JavaScript, Python, Bash and C# in one bounded batch through pinned language servers. Local deterministic tools; no model API calls or permanent indexer.",
+    "developerName": "PedroAVJ",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Find the definition and callers of this symbol",
+      "Outline this module and show the type of this identifier"
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/lsp-icon.svg",
+    "logo": "./assets/lsp-icon.svg"
+  }
+}

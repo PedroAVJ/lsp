@@ -1,0 +1,13 @@
+{
+  "name": "csharp-lsp",
+  "display": "C# LSP",
+  "description": "Resolve C# symbols, definitions, references and types in batched CLI queries.",
+  "dotnet": "csharp-ls",
+  "version": "0.20.0",
+  "bin": "csharp-ls",
+  "args": [],
+  "languageId": "csharp",
+  "extensions": [
+    ".cs"
+  ]
+}

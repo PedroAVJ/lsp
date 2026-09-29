@@ -1,0 +1,22 @@
+{
+  "name": "typescript-lsp",
+  "display": "TypeScript / JavaScript LSP",
+  "description": "Batch TypeScript, TSX, JavaScript and JSX navigation through a language server.",
+  "deps": {
+    "typescript-language-server": "5.3.0",
+    "typescript": "5.9.3"
+  },
+  "bin": "typescript-language-server",
+  "args": [
+    "--stdio"
+  ],
+  "languageId": "typescript",
+  "extensions": [
+    ".ts",
+    ".tsx",
+    ".js",
+    ".jsx",
+    ".mjs",
+    ".cjs"
+  ]
+}

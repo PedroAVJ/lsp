@@ -1,0 +1,17 @@
+{
+  "name": "python-lsp",
+  "display": "Python LSP",
+  "description": "Batch Python definitions, references, symbols and type information using Pyright.",
+  "deps": {
+    "pyright": "1.1.414"
+  },
+  "bin": "pyright-langserver",
+  "args": [
+    "--stdio"
+  ],
+  "languageId": "python",
+  "extensions": [
+    ".py",
+    ".pyi"
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Navigate"
+  short_description: "Batch LSP definitions, references and types"
+  default_prompt: "Use $navigate to find the definition and callers of this symbol."
+policy:
+  allow_implicit_invocation: true
