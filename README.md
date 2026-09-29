@@ -5,11 +5,11 @@ language servers, in one plugin with one shared read-only CLI.
 
 ## Install
 
-From the [Package Manager](https://github.com/PedroAVJ/package-manager) marketplace:
+From the [Package Manager](https://github.com/PedroAVJ/near) marketplace:
 
 ```sh
-codex plugin add lsp@package-manager
-claude plugin install lsp@package-manager
+codex plugin add lsp@near
+claude plugin install lsp@near
 ```
 
 Self-contained plugin for Codex and Claude Code: both client manifests and a
